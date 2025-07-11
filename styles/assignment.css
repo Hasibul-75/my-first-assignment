@@ -6,6 +6,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .bg-img{
     background-image: url(../images/Hero-bg.png)
 }
@@ -60,11 +61,29 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 100px 400px;
+    padding: 100px 400px;
     background-color: #FFFFFF;
 }
 img{
     border-radius: 48px;
+}
+.bc{
+    background-color: white;
+}
+.in-touch{
+    text-align: center;
+    font-size: 97px;
+    font-weight: bold;
+}
+input[type="text"],input[type="email"],textarea{
+    height: 64px;
+    border-radius: 8px;
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
 .f-li{
     display: flex;
