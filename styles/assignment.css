@@ -7,13 +7,28 @@
     "wdth" 100;
 }
 .btn-primary{
-    background-color: #4E47FF;
+    
     font-weight: bold;
-    color: #FFFFFF;
+    
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 15px;
     border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+    
+}
+.btn-primary{
+    
+    border: 2px solid;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+}
+.btn-primary:hover {
+    background-color: azure;
+    color: black;
 }
 nav{
     display: flex;
